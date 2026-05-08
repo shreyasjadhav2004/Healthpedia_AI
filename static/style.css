@@ -69,6 +69,13 @@ border-radius: 0 0 15px 15px !important;
 	color: white !important;
 	cursor: pointer;
 }
+.send_btn:disabled{
+	opacity: 0.55;
+	cursor: wait;
+}
+.streaming_text{
+	white-space: pre-wrap;
+}
 .search_btn{
 	border-radius: 0 15px 15px 0 !important;
 	background-color: rgba(0,0,0,0.3) !important;
